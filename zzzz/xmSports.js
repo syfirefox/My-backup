@@ -14,7 +14,7 @@ APP Store下载小米运动APP
 hostname = account.huami.com
 Surge
 [Script]
-小米运动 = type=cron,cronexp="15 17 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/backUp/xmSports.js
+小米运动111 = type=cron,cronexp="15 17 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/backUp/xmSports.js
 小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/backUp/xmSports.js
 圈X
 [task_local]
